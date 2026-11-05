@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QuickBite — Good food, right on time</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><header><div><strong>🍕 QuickBite</strong><small>Good food, right on time.</small></div><a href="/docs" target="_blank">Gateway API Docs</a></header>
+<main><section class="hero"><h1>Restaurant discovery → Order → Delivery</h1><p>A four-service, cloud-ready food ordering demonstration.</p></section>
+<section class="layout"><article><h2>1. Restaurants</h2><div id="restaurants">Loading restaurants…</div><h2>2. Menu</h2><div id="menu">Choose a restaurant above.</div></article>
+<article><h2>3. Place order</h2><label>Customer ID<input id="customer" value="student-demo" required></label><div id="cart">Select items to order.</div><p><b id="total">Total: ₹0.00</b></p><button id="orderBtn" disabled>Place Order</button>
+<h2>4. Schedule delivery</h2><label>Address<textarea id="address" rows="3" placeholder="Enter delivery address">BITS Pilani demo campus</textarea></label><button id="deliveryBtn" disabled>Create Delivery</button>
+<h2>API Responses</h2><pre id="response" aria-live="polite">Waiting for input…</pre><h2>Check Existing Orders</h2><button id="listBtn">Load Orders</button></article></section></main>
+<footer>SEZG583 Scalable Services · QuickBite academic lab</footer><script src="/static/app.js"></script></body></html>
